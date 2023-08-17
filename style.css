@@ -2,9 +2,51 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Inter;
 }
 html,
 body {
   height: 100%;
   width: 100%;
+  background: #6c93e1;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#main {
+  width: 90%;
+  height: 80%;
+  background-color: #3059ad;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.top {
+  display: flex;
+  /* justify-content: space-evenly; */
+  justify-content: center;
+  gap: 150px;
+  padding: 10px 0;
+}
+
+.top-elem {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.top-elem h3 {
+  font-size: 25px;
+  background-color: lightslategray;
+  padding: 5px 14px;
+  border-radius: 5px;
+}
+
+.bottom {
+  height: 2000px;
+  width: 2000px;
+  overflow: hidden;
+  background-color: #fff;
+
 }
